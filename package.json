@@ -1,0 +1,19 @@
+{
+  "name": "meeting-indicator",
+  "version": "1.0.0",
+  "description": "A script that checks Outlook for current events and indicates when a meeting is happening",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^1.4.0",
+    "adafruit-i2c-lcd": "^2.0.0",
+    "dotenv": "^10.0.0",
+    "luxon": "^2.3.0",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.6"
+  }
+}
